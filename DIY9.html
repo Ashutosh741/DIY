@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .container{
+            height: 300px;
+            width: 350px;
+            border: 1px solid blue;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+        .square{
+            height: 50px;
+            width: 50px;
+            border: 1px solid red;
+        }
+        .circle{
+            height: 50px;
+            width: 50px;
+            border: 1px solid green;
+            border-radius: 50%;
+        }
+        .row{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row;
+        }
+        .text{
+            color: rgba(255, 0, 0, 0.548);
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="container">
+            <div class="row">
+                <div class="square"></div>
+                <div class="circle"></div>
+                <div class="square"></div>
+            </div>
+            <div class="row">
+                <div class="circle"></div>
+                <div class="text">Day 9 Task</div>
+                <div class="circle"></div>
+            </div>
+            <div class="row">
+                    <div class="square"></div>
+                    <div class="circle"></div>
+                    <div class="square"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
